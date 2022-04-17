@@ -1,4 +1,4 @@
-.idea
-venv
-migrations
-db.sqlite3
+/.idea/
+/venv/
+/migrations/
+/db.sqlite3
