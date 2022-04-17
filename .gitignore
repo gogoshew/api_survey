@@ -1,4 +1,4 @@
 .idea
 venv
-survey/migrations
-survey_api_drf/db.sqlite3
+migrations
+db.sqlite3
