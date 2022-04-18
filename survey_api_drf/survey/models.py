@@ -18,7 +18,6 @@ class Question(models.Model):
         ('multiple', 'Несколько вариантов'),
         ('text', 'Текстовый вариант'),
     )
-
     survey = models.ForeignKey(Survey, related_name='questions', verbose_name='Опрос', on_delete=models.CASCADE)
     question_text = models.CharField(max_length=200, verbose_name='Текст вопроса')
     question_type = models.CharField(max_length=200, verbose_name='Тип вопроса', choices=type_choices)
